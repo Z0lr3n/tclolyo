@@ -23,8 +23,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: https://dockerapptclo.azurecr.io
-          username: lyo14\zolren
-          password: Soleil123!
+          username: dockerapptclo
+          password: YIor6RLdJT7b5/B0VOAQ07sTdXEMw+NAlhycO4Iprq+ACRARu6Im
 
       - name: Build and push container image to registry
         uses: docker/build-push-action@v3
