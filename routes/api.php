@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/counter/add', [CounterController::class, 'add']);
+Route::post('/counter/add', [CounterController::class, 'add']);
 Route::get('/counter/count', [CounterController::class, 'get']);
